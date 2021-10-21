@@ -1,0 +1,68 @@
+/*
+body {
+    font-family: "Josefin Sans", sans-serif;
+  
+  }
+  header {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 140px;
+    margin-left: 20px;
+  }
+  
+  .label {
+    font-size: 25px;
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background:black;
+    text-align: center;
+    transition: all .5s;
+  
+  }
+  
+  .nav-menu li {
+    display: none;
+    line-height: 20px;
+    margin: 50px;
+    transition: all .5s;
+  }
+  .nav-menu li a {
+    color: aliceblue;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .nav-menu li a.active, .nav-menu li a :hover {
+    color: red;
+    transition: .3s;
+  }
+  
+  #check {
+    display: none;
+  }
+  #check:checked ~ .nav-menu{
+    height: 100vh;
+  }
+  
+  #check:checked ~ .nav-menu li {
+    display: block;
+  }

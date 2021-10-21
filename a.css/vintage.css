@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .nav-vintage-link{
+    grid-row: span;
+    background-color: whitesmoke;
+  }
+  .nav-vintage-link li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+  
+  }
+  
+  .nav-vintage-link li a{
+      justify-content: center;
+      text-decoration: none;
+      color: black;
+      font-weight: 800;
+      position: sticky;
+      padding: 15px;
+    }
+    
+.logo-vintage{
+    height: 200px;
+}
+
+.mycarousel{
+    height: 1000px!important;
+}

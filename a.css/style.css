@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-top{
+  background-color: rgb(199, 91, 91);
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1,5vw;
+  cursor:pointer;
+  color: black;
+  font-style:normal;
+  font-weight: 600px;
+
+}
+
+#instagram.logo:hover {
+  color: white;
+
+}
+
+#header{
+  padding: 0%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #438c67;
+  position: relative;
+  padding: 15px 40px;
+  display: block;
+  
+}
+
+.logo {
+  width: 140px;
+  margin-left: center;
+  justify-content: center;
+}
+
+.div-logo{
+  align-items: center;
+}
+
+#nav-index{
+  grid-row: span;
+  background-color: whitesmoke;
+}
+
+.nav-logo{
+  background-color:rgb(204, 214, 113);
+  display: flex;
+  height: 100%;
+}
+
+.nav-logo h1 {
+  color: whitesmoke;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  font-size: 3vw;
+  
+}
+#hamburguesa {
+  display: flex;
+}
+
+.nav-logo img {
+  align-items: center;
+  border: solid black 1px;
+  display: flex;
+}
+
+.nav-menu li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+
+.nav-menu li a {
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  position: sticky;
+  padding: 15px;
+}
+
+.nav-menu li a:hover {
+  cursor: pointer;
+  color: yellowgreen;
+}
+
+.active {
+  display: inline;
+}
+
+
+#principal{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#principal-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  flex-wrap: wrap;
+  border: 1px;
+}
+
+.container {
+  display: flexbox;
+  margin: top 1px;
+  background-color: white;
+  flex-direction: column;
+  height: 800px;
+  padding: 2%;
+  gap: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer{
+    color: black;
+    background-color:whitesmoke;
+    padding: 1px;
+    align-items: center;
+    position: static;
+}
+#footer-index{
+  background-color: whitesmoke;
+  position: absolute;
+}
+
+#carrito:hover{
+  font-size: 20px;
+  color: #438c67;
+}
+h1:hover{
+  cursor: pointer;
+  display: flex;
+}
+
+.form{
+  display: block;
+  justify-content: center;
+}
+
+.imagen1{
+  height: 200px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.caja1 {
+  padding: 10px;
+}
+.imagen2{
+  height: 200px;
+  flex-wrap: wrap;
+}
+.imagen3{
+  height: 200px;
+  flex-wrap: wrap;
+}
+.imagen4{
+  height: 200px;
+  flex-wrap: wrap;
+}
+.imagen5{
+  height: 200px;
+  flex-wrap: wrap;
+}
+.imagen6{
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.imagen6:hover{
+  cursor: pointer;
+  transform: scale(2);
+}
+.caja6-div-image{
+  height: 50px;
+  cursor: progress;
+}
+
+/* ///// VINTAGE HTML //////
+.nav-vintage-link{
+  grid-row: span;
+  background-color: whitesmoke;
+} 
+.nav-vintage-link li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;
+
+}
+
+.nav-vintage-link li a{
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    position: sticky;
+    padding: 15px;
+  }
+
+  ///// CONTACTFORM HTML /////
+
+.containar-contact{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.aside-contact{
+  display: grid;
+  flex-direction: column;
+  background-color: grey;
+  font-size: 2vw;
+  padding: 1%;
+  gap: 10px;
+  border: solid 1px black;
+  margin: top 1px;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width:600px){
+  .aside-contact{
+    grid-column: 1/3;
+  }
+}
+*/

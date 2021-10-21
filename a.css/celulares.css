@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+@media only screen and (max-width:600px){
+    .header-top{
+        display: none;
+    }
+    .nav-logo{
+        font-size: 2vw;
+    }
+    .container{
+        display: inline-block;
+        width: 50%;
+    }
+    .nav-menu{
+        display: none;
+    }
+    #hamburguesa {
+        display: flex;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .container {
+        display: flexbox;
+        margin: top 1px;
+        background-color: white;
+        flex-direction: column;
+        height: 100px;
+        padding: 2%;
+        gap: 10px 15px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #principal-container {
+        position: inherit;
+    }
+
+}

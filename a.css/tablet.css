@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+@media only screen and (max-width:768px){
+    .header-top{
+        display: none;
+    }
+    .nav-logo{
+        font-size: 2vw;
+    }
+    .container{
+        display: inline-block;
+        width: 50%;
+    }
+    .nav-menu{
+        display: none;
+    }
+    #hamburguesa {
+        display: flex;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}
