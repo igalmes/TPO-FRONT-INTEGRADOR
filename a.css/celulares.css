@@ -15,11 +15,14 @@
         display: inline-block;
         width: 50%;
     }
+    /* SE MODIFICA ESTA CLASE */
     .nav-menu{
-        display: none;
+        /* display: none; */
     }
+    /* TAMBIEN SE MOFICA LA HAMBURGUESA */
     #hamburguesa {
-        display: flex;
+        order: 1;
+        /* display: flex; */
         margin-left: 20px;
         cursor: pointer;
     }
@@ -38,5 +41,15 @@
     #principal-container {
         position: inherit;
     }
+    /* AGREGADO */
+    .item{
+        width: 100%;
+        text-align: center;
+        order: 3;
+        display: none;
+    }
 
+    .item.active {
+        display: block;
+    }
 }

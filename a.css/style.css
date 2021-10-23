@@ -24,7 +24,6 @@
 
 #instagram.logo:hover {
   color: white;
-
 }
 
 #header{
@@ -67,6 +66,7 @@
   font-size: 3vw;
   
 }
+
 #hamburguesa {
   display: flex;
 }
@@ -76,7 +76,14 @@
   border: solid black 1px;
   display: flex;
 }
-
+/* SE MOFIDICA */
+.nav-menu{
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  width: 1px;
+}
 .nav-menu li {
   list-style: none;
   display: inline;
@@ -87,14 +94,13 @@
   justify-content: center;
   text-decoration: none;
   color: black;
-  font-weight: 800;
   position: sticky;
   padding: 15px;
 }
 
 .nav-menu li a:hover {
   cursor: pointer;
-  color: yellowgreen;
+  background-color: white;
 }
 
 .active {
@@ -137,6 +143,7 @@
     align-items: center;
     position: static;
 }
+
 #footer-index{
   background-color: whitesmoke;
   position: absolute;
@@ -193,49 +200,3 @@ h1:hover{
   height: 50px;
   cursor: progress;
 }
-
-/* ///// VINTAGE HTML //////
-.nav-vintage-link{
-  grid-row: span;
-  background-color: whitesmoke;
-} 
-.nav-vintage-link li{
-  list-style: none;
-  display: inline-block;
-  padding: 5px 10px;
-
-}
-
-.nav-vintage-link li a{
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    position: sticky;
-    padding: 15px;
-  }
-
-  ///// CONTACTFORM HTML /////
-
-.containar-contact{
-  display: grid;
-  grid-template-columns: 80% 20%;
-}
-.aside-contact{
-  display: grid;
-  flex-direction: column;
-  background-color: grey;
-  font-size: 2vw;
-  padding: 1%;
-  gap: 10px;
-  border: solid 1px black;
-  margin: top 1px;
-  align-items: flex-start;
-}
-
-@media only screen and (max-width:600px){
-  .aside-contact{
-    grid-column: 1/3;
-  }
-}
-*/

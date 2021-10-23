@@ -15,12 +15,24 @@
         display: inline-block;
         width: 50%;
     }
+    /* SE MODIFICA */
     .nav-menu{
-        display: none;
+        /* display: none; */
     }
     #hamburguesa {
         display: flex;
         margin-left: 20px;
         cursor: pointer;
+    }
+    /* SE AGREGA */
+    .item {
+        width: 100%;
+        text-align: center;
+        order: 3;
+        display: none;
+    }
+
+    .item.active {
+        display: block;
     }
 }
