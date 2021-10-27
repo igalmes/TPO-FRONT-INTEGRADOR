@@ -9,11 +9,10 @@
 }
 
 .header-top{
-  background-color: rgb(199, 91, 91);
+  background-color: #438c67;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   padding: 10px;
-  box-sizing: border-box;
   font-size: 1,5vw;
   cursor:pointer;
   color: black;
@@ -30,7 +29,7 @@
   padding: 0%;
   justify-content: space-between;
   align-items: center;
-  background-color: #438c67;
+  background-color: #fff;
   position: relative;
   padding: 15px 40px;
   display: block;
@@ -45,11 +44,63 @@
 
 .div-logo{
   align-items: center;
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Josefin';
 }
 
-#nav-index{
-  grid-row: span;
+.div-logo a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.div-logo a:hover {
+  color: black;
   background-color: whitesmoke;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .nav-logo{
@@ -68,17 +119,16 @@
 }
 
 #hamburguesa {
-  display: flex;
+  display:flex;
 }
 
 .nav-logo img {
   align-items: center;
-  border: solid black 1px;
   display: flex;
 }
-/* SE MOFIDICA */
+/* SE MOFIDICA
 .nav-menu{
-  display: inline;
+  display: none;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
@@ -86,15 +136,16 @@
 }
 .nav-menu li {
   list-style: none;
-  display: inline;
+  display: flex;
   padding: 5px;
+  align-content: flex-start;
 }
 
 .nav-menu li a {
   justify-content: center;
   text-decoration: none;
   color: black;
-  position: sticky;
+  position: flex;
   padding: 15px;
 }
 
@@ -102,6 +153,7 @@
   cursor: pointer;
   background-color: white;
 }
+*/
 
 .active {
   display: inline;
@@ -110,30 +162,68 @@
 
 #principal{
   display: flex;
-  justify-content: center;
-  align-content: center;
   flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
 }
 
 #principal-container {
   display: flex;
-  flex-direction: column;
-  width: 800px;
-  flex-wrap: wrap;
+  flex-direction: row;
   border: 1px;
+  align-content: center;
 }
 
 .container {
-  display: flexbox;
+  display: flex;
   margin: top 1px;
   background-color: white;
-  flex-direction: column;
-  height: 800px;
+  flex-direction: row;
   padding: 2%;
   gap: 10px 15px;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.boton {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    overflow: default;
+    background-color: #99c3ee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 38px;
+    font-family: 'Josefin';
+    font-weight: bold;
+}
+
+.boton:hover {
+  cursor: pointer;
+  background-color: #438c67;
+}
+
+.section-bottom p{
+  background-color: #438c67;
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-family: 'Josefin Sanz';
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.section-bottom-envios {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .footer{
@@ -168,25 +258,51 @@ h1:hover{
   overflow: hidden;
   flex-wrap: wrap;
 }
-.caja1 {
-  padding: 10px;
+.imagen1:hover {
+  cursor: pointer;
+  transform: scale(2);
 }
+
+
 .imagen2{
   height: 200px;
   flex-wrap: wrap;
 }
+.imagen2:hover {
+  cursor: pointer;
+  transform: scale(2);
+}
+
 .imagen3{
   height: 200px;
   flex-wrap: wrap;
 }
+
+.imagen3:hover {
+  cursor: pointer;
+  transform: scale(2);
+}
+
+
 .imagen4{
   height: 200px;
   flex-wrap: wrap;
 }
+
+.imagen4:hover {
+  cursor: pointer;
+  transform: scale(2);
+}
+
 .imagen5{
   height: 200px;
   flex-wrap: wrap;
 }
+.imagen5:hover{
+  cursor: pointer;
+  transform: scale(2);
+}
+
 .imagen6{
   height: 200px;
   flex-wrap: wrap;

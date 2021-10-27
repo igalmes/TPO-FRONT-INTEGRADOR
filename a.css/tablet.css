@@ -12,12 +12,12 @@
         font-size: 2vw;
     }
     .container{
-        display: inline-block;
-        width: 50%;
+        display: flex;
     }
-    /* SE MODIFICA */
+    /* SE MODIFICA
     .nav-menu{
-        /* display: none; */
+        display: none;
+        */
     }
     #hamburguesa {
         display: flex;
@@ -35,4 +35,9 @@
     .item.active {
         display: block;
     }
-}
+
+    .section-bottom p {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }

@@ -25,34 +25,23 @@
         <h1 class="h1-index">Lorem dolorem reprehenderit! Deleniti sunt sequi nisi.<h1>
       </div>
     </header>
-  </div>
-  <nav id="nav-index">
-    <div class="div-logo">
+  <div class="div-logo">
+      <a href="index.html">Inicio</a>
+      <a href="./contactform.html">Contacto</a>
+      <a href="vintage.html">Vintage</a>
+      <div class="dropdown">
+        <button class="dropbtn">Campaña
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Otoño</a>
+          <a class="videoPlaya" href="./img/videoPlaya.mp4">Invierno</a>
+          <a href="#">Primavera</a>
+          <a href="#">Verano</a>
+        </div>
+      </div>
     </div>
     <!-- SE CAMBIA LA ESTRUCTURA DEL MENU -->
-    <ul class="nav-menu">
-      
-      <li class="item">
-        <a  href="index.html">INICIO</a>
-        <button type="dropdown">
-          <select name="incio" id="dropdown"></select>
-        </button>
-      </li>
-      <li class="item">
-        <a href="div-body-header"><i id="carrito" class="fas fa-shopping-cart">BUY!</a></i>
-      </li>
-      <li class="item">
-        <a href="vintage.html">VINTAGE</a>
-      </li>
-      <li class="item">
-        <a href="contactform.html">CONTACTO</a>
-      </li>
-      <li id="hamburguesa" onclick="toggle(this)" >
-        <a href="#"><i class="fas fa-bars" ></i></a>
-      </li>
-    </ul>
-    </div>
-  </nav>
   <main class="container-padre" id="principal">
     <div id="principal-container" class="container">
       <div class="caja1">
@@ -77,13 +66,37 @@
       </div>
     </div>
   </main>
+  <div>
+    <button type="" class="boton">Ver Más!
+      <a href="./galeria.html"></a>
+    </button>
+  </div>
+  <br>
+  <br>
+  <section class="section-bottom">
+    <div class="section-bottom-envios">
+      <br>
+    <p>ENVIOS A TODO EL PAIS
+      <i class="fas fa-shipping-fast"></i>
+    </p>
+      <br>
+    <p>PUNTO DE VENTA Y RETIRO DE COMPRAS 
+      <i class="fas fa-shopping-bag"></i>
+    </p>
+      <br>
+    <p>COMPRA SEGURA
+      <i class="fas fa-shield-alt"></i>
+    </p>
+    <br>
+  </div>
+  </section>
   <footer class="footer">
     <div id="footer-index">
       <h3>Todos los derechos reservados ® </h3>
     </div>
   </footer>
   <script src="./Libs/bootstrap/bootstrap/js/bootstrap.min.js"></script>
-  <script src="./index.js/index.js"></script>
+  <script src="./archivos.js/index.js"></script>
+  <script src="./archivos.js/form.js"></script>
 </body>
-
 </html>

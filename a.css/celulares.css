@@ -6,7 +6,7 @@
 
 @media only screen and (max-width:600px){
     .header-top{
-        display: none;
+        display: flex;
     }
     .nav-logo{
         font-size: 2vw;
@@ -17,12 +17,12 @@
     }
     /* SE MODIFICA ESTA CLASE */
     .nav-menu{
-        /* display: none; */
+        display: none;
     }
     /* TAMBIEN SE MOFICA LA HAMBURGUESA */
     #hamburguesa {
         order: 1;
-        /* display: flex; */
+        display: flex;
         margin-left: 20px;
         cursor: pointer;
     }
@@ -51,5 +51,13 @@
 
     .item.active {
         display: block;
+    }
+
+    .section-bottom, p {
+        display: none;
+    }
+    #footer-index, h3 {
+        display: relative;
+        bottom: 0;
     }
 }
