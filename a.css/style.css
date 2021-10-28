@@ -65,7 +65,7 @@
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  overflow: visible;
   flex-wrap: wrap;
 }
 
@@ -199,6 +199,7 @@
     line-height: 38px;
     font-family: 'Josefin';
     font-weight: bold;
+    position: relative;
 }
 
 .boton:hover {
@@ -243,6 +244,7 @@
   font-size: 20px;
   color: #438c67;
 }
+
 h1:hover{
   cursor: pointer;
   display: flex;
@@ -310,9 +312,20 @@ h1:hover{
 
 .imagen6:hover{
   cursor: pointer;
+  translate: (-50px -100px);
   transform: scale(2);
 }
 .caja6-div-image{
   height: 50px;
   cursor: progress;
+}
+
+.border1 {
+  width: 100px;
+  border: 3px solid black;
+}
+.border2 {
+  width: 90px;
+  background-color: white;
+  border: 3px solid black;
 }

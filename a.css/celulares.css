@@ -6,14 +6,18 @@
 
 @media only screen and (max-width:600px){
     .header-top{
-        display: flex;
+        display: none;
     }
+    .div-body {
+        box-sizing: border-box;
+    }
+
     .nav-logo{
         font-size: 2vw;
     }
-    .container{
-        display: inline-block;
-        width: 50%;
+
+    .div-logo {
+        position: sticky;
     }
     /* SE MODIFICA ESTA CLASE */
     .nav-menu{
@@ -27,11 +31,11 @@
         cursor: pointer;
     }
     .container {
-        display: flexbox;
+        display: flex;
         margin: top 1px;
         background-color: white;
         flex-direction: column;
-        height: 100px;
+        width: 100%;
         padding: 2%;
         gap: 10px 15px;
         justify-content: center;
@@ -59,5 +63,14 @@
     #footer-index, h3 {
         display: relative;
         bottom: 0;
+    }
+    .imagen1 {
+        display: none;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;       
+    }
+    .boton {
+        display: flex;
     }
 }
