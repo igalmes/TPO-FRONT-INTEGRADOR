@@ -53,10 +53,12 @@
   align-items: center;
   font-family: 'Josefin Sans', sans-serif;
   background-color:#98a197;
+  justify-content: space-between;
 }
 
 .div-logo a {
   display: flex;
+  justify-content: space-between;
   float: left;
   font-size: 20px;
   color: black;
@@ -85,7 +87,7 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: black;
@@ -120,33 +122,12 @@
   display: block;
 }
 
-.nav-logo{
+.nav-logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav {
-  position: fixed;
-  background: rgba(0, 0, 0, 0.6);
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: black;
-}
-
-.nav.open {
-  left: 0;
-}
-
-.nav a {
-  padding: 1rem;
-}
 
 
 .nav-logo img {

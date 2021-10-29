@@ -9,6 +9,29 @@
         display: flex;
     }
 
+    /*.div-logo {
+         display: none; 
+    }
+    */
+
+    #hamburguesa {
+        display: flex;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    /* SE AGREGA */
+    .item {
+        width: 100%;
+        text-align: center;
+        order: 3;
+        display: none;
+    }
+
+    .item.active {
+        display: block;
+    }
+
+
     #header {
         display: none;
     }
@@ -21,9 +44,10 @@
     }
 
     .div-logo a{
-        font-size: 16px;
-        background-color: #646b63
-    
+        font-size: 20px;
+        background-color: #98a197;
+    }
+
     .container{
         display: flex;
         margin-left: auto;
@@ -88,5 +112,4 @@
         display: inline-block;
         flex-direction: column;
     }
-
 }
