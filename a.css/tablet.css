@@ -13,7 +13,7 @@
         display: none;
     }
     .nav-logo{
-        font-size: 2vw;
+        font-size: 16px;
         display: none;
     }
     
@@ -26,26 +26,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        /* SE MODIFICA
-    .nav-menu{
-        display: none;
-        */
-    }
-    #hamburguesa {
-        display: flex;
-        margin-left: 20px;
-        cursor: pointer;
-    }
-    /* SE AGREGA */
-    .item {
-        width: 100%;
-        text-align: center;
-        order: 3;
-        display: none;
-    }
-
-    .item.active {
-        display: block;
+        
     }
 
     .section-bottom p {

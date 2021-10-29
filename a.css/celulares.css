@@ -5,6 +5,19 @@
   }
 
 @media only screen and (max-width:600px){
+
+    .ham {
+       display: flex;
+       position: fixed;
+       bottom: 0;
+    }
+
+    .myDIV{
+        display: flex;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
     .header-top{
         display: none;
     }
@@ -13,23 +26,17 @@
     }
 
     .nav-logo{
-        font-size: 2vw;
+        font-size: 16px;
     }
 
-    .div-logo {
-        position: sticky;
+    .div-logo a{
+        font-size: 16px;
     }
     /* SE MODIFICA ESTA CLASE */
     .nav-menu{
         display: none;
     }
-    /* TAMBIEN SE MOFICA LA HAMBURGUESA */
-    #hamburguesa {
-        order: 1;
-        display: flex;
-        margin-left: 20px;
-        cursor: pointer;
-    }
+
     .container {
         display: flex;
         margin: top 1px;
