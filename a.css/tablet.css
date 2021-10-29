@@ -16,6 +16,13 @@
         font-size: 16px;
         display: none;
     }
+    .nav-logo{
+        font-size: 16px;
+    }
+
+    .div-logo a{
+        font-size: 16px;
+        background-color: #646b63
     
     .container{
         display: flex;
